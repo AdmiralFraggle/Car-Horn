@@ -21,19 +21,19 @@ try:
                 button_state23 = GPIO.input(23)
                 if button_state23 == False:
                         print('Button 23 Pressed')
-                        os.system('omxplayer /home/pi/Downloads/"DING SOUND EFFECT FREE DOWNLOAD.mp3"')
+                        os.system('omxplayer /home/pi/sounds/Playful\ R2D2.mp3')
                         time.sleep(0.2)
                         
                 button_state25 = GPIO.input(25)
                 if button_state25 == False:
                         print('Button 25 Pressed')
-                        os.system('omxplayer /home/pi/Downloads/"la_cucaracha.aiff"')
+                        os.system('omxplayer /home/pi/sounds/Cantina\ band.mp3')
                         time.sleep(0.2)
                         
                 button_state12 = GPIO.input(12)
                 if button_state12 == False:
                         print('button 12 pressed')
-                        os.system('omxplayer /home/pi/Downloads/"wilhelm_scream.aiff"')
+                        os.system('omxplayer /home/pi/sounds/Very\ Excited\ R2D2.mp3')
                         time.sleep(0.2)
                         
                     
